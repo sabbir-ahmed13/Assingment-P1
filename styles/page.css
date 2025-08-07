@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Azeret Mono", monospace;
+}
+
+/* header nav styles */
+nav {
+	margin-bottom: 47px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ul li {
+	list-style: none;
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+.nav-btn {
+	width: 228px;
+	height: 58px;
+	box-sizing: border-box;
+	border: 1px solid rgba(13, 19, 33, 1);
+	border-radius: 8px;
+	opacity: 0.8;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+/* nav text styles */
+.nav-title {
+	color: rgba(13, 19, 33, 1);
+	font-family: Azeret Mono;
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-text {
+	color: rgba(13, 19, 33, 1);
+	font-family: Azeret Mono;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
