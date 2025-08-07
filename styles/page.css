@@ -7,9 +7,9 @@ body {
 }
 
 /* header nav styles */
-nav {
+/* nav {
 	margin-bottom: 47px;
-}
+} */
 
 nav ul {
 	display: flex;
@@ -50,4 +50,70 @@ ul li {
 	font-size: 20px;
 	font-weight: 400;
 	text-align: center;
+}
+
+/* hero section styles */
+.hero {
+	background-image: url("../assets/Hero-bg.png");
+	height: 652px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-content {
+	width: 998px;
+	height: 582px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.titles {
+	margin-top: 40px;
+	width: 998px;
+	height: 212px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.titles .hero-title {
+	color: rgba(13, 19, 33, 1);
+	font-family: Azeret Mono;
+	font-size: 48px;
+	line-height: 68px;
+	text-align: center;
+}
+
+.titles .hero-description {
+	color: rgba(13, 19, 33, 1);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+.hero-btn a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+	font-family: Azeret Mono;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1px;
+	letter-spacing: 0%;
+	text-align: center;
+}
+.hero-btn {
+	padding: 21px 24px;
+	border-radius: 8px;
+	background: rgba(13, 19, 33, 1);
 }
