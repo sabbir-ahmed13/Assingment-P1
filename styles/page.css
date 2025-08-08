@@ -334,3 +334,194 @@ iframe {
 	font-size: 16px;
 	font-weight: 600;
 }
+/* my-next-target styles */
+.my-next-target {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.nt-content-box {
+	width: 852px;
+	height: 115px;
+	margin-bottom: 48px;
+}
+.nt-card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 1140px;
+	height: 708px;
+	margin-bottom: 41px;
+}
+.nt-card-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1140px;
+	height: 220px;
+	box-sizing: border-box;
+	border: 1px solid rgba(13, 19, 33, 0.15);
+	border-radius: 16px;
+	background: rgba(255, 255, 255, 1);
+}
+
+.nt-card-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	width: 1060px;
+	height: 140px;
+}
+
+/* image box sizing */
+
+.nt-card-image-1 {
+	width: 94.78px;
+	height: 108px;
+}
+.nt-card-image-2 {
+	width: 143.51px;
+	height: 88px;
+}
+.nt-card-image-3 {
+	width: 108px;
+	height: 108px;
+}
+
+.nt-card-content-text {
+	width: 892.49px;
+	height: 140px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: start;
+}
+
+/* nt top content box text formatting */
+.nt-title {
+	color: rgba(13, 19, 33, 1);
+	font-family: Azeret Mono;
+	font-size: 32px;
+	text-align: center;
+}
+
+.nt-description {
+	color: rgba(13, 19, 33, 1);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	opacity: 0.7;
+}
+
+/* now inner card text formatting */
+.nt-card-title {
+	color: rgba(13, 19, 33, 1);
+	font-family: Azeret Mono;
+	font-size: 24px;
+}
+
+.nt-card-description {
+	color: rgba(13, 19, 33, 1);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0%;
+	text-align: left;
+	opacity: 0.7;
+}
+.nt-card-description a {
+	display: block;
+	text-decoration: none;
+	color: rgba(13, 19, 33, 1);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+/* feedback styles */
+.feedback-box {
+	margin: 0 auto;
+	width: 1140px;
+	height: 314px;
+}
+.feedback-box-bg-image {
+	background-image: url("../assets/handshake.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 16px;
+	padding: 64px 48px;
+}
+.main-box {
+	width: 1044px;
+	height: 186px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.content-box {
+	width: 730px;
+	height: 104px;
+}
+
+.input-box {
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+}
+
+.input-box input[type="text"] {
+	width: 548px;
+	height: 57px;
+	box-sizing: border-box;
+	border: 1px solid rgba(13, 19, 33, 0.15);
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 1);
+	color: rgba(0, 0, 0, 0.4);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 19px 0 19px 20px;
+}
+
+.input-box input[type="submit"] {
+	width: 120px;
+	height: 58px;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 1);
+	color: rgb(0, 0, 0);
+	font-family: Azeret Mono;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+}
+
+/* feedback-box text formatting */
+.feedback-title {
+	color: rgba(255, 255, 255, 1);
+	font-family: Azeret Mono;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: 0%;
+	text-align: center;
+}
+.feedback-description {
+	color: rgba(255, 255, 255, 1);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0%;
+	text-align: center;
+	opacity: 0.7;
+}
